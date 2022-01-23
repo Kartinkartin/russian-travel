@@ -1,0 +1,27 @@
+.place__url {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-left: 16px;
+    margin-bottom: 12px;    
+}
+
+@media screen and (min-width: 768px) {
+    .place__url {
+        grid-column: 2;
+        grid-row: 2;
+        margin: 0;
+        align-self: start;
+        justify-self: start;
+        margin-bottom: 37px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .place__url {
+        margin-bottom: 30px;
+    }
+}

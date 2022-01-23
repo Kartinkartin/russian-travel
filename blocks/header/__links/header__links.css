@@ -1,0 +1,11 @@
+.header__links {
+    width: 58px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+    .header__links {
+        width: 78px;
+    }
+}

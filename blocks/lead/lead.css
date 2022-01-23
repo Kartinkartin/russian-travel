@@ -1,0 +1,27 @@
+.lead {
+    padding-top: 39px;
+    padding-bottom: 64px;
+}
+
+@media screen and (min-width: 768px) {
+    .lead {
+        padding-bottom: 89px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .lead {
+        padding-left: 48px;
+        padding-right: 48px;
+        padding-bottom: 93px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .lead {
+        padding-left: 148px;
+        padding-right: 148px;
+        padding-top: 48px;
+        padding-bottom: 91px;
+    }
+}

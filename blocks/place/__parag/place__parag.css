@@ -1,0 +1,14 @@
+.place__parag {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.place__parag:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .place__parag {
+        margin-bottom: 28px;
+    }
+}
