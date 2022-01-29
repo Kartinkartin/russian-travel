@@ -1,5 +1,13 @@
 .page {
-    font-family: Inter;
+    font-family: Inter, Arial, Helvetica, sans-serif;
     background-color: #2A2C2F;
     color: #fff;
+    min-width: 320px;
+    max-width: 1280px;
+}
+
+@media screen and (min-width: 1280px) {
+    .page {
+        margin: 0 auto;
+    }
 }

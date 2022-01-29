@@ -4,16 +4,6 @@
     padding-left: 16px;
 }
 
-.cover__text::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 200px;
-    background-color: rgb(42, 44, 47, 0.3);
-}
-
 @media screen and (min-width: 768px) {
     .cover__text {
         min-height: 480px;

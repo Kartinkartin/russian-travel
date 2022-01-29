@@ -1,0 +1,13 @@
+.footer__links-item {
+    margin: 0;
+    list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+    .footer__links-item {
+        margin-right: 19px;
+    }
+    .footer__links-item:last-child {
+        margin-right: 0;
+    }
+}

@@ -1,9 +1,0 @@
-.place__header_name_kosa {
-    width: 320px;
-}
-
-@media screen and (min-width: 1024px) {
-    .place__header_name_kosa {
-        width: 100%;
-    }
-}

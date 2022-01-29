@@ -1,5 +1,5 @@
 .intro {
-    padding-bottom: 64px;
+    padding-bottom: 48px;
     padding-left: 16px;
     padding-right: 16px;
 }
@@ -8,20 +8,20 @@
     .intro {
         padding-left: 24px;
         padding-right: 24px;
-        padding-bottom: 86px;
+        padding-bottom: 71px;
     }
 }
 @media screen and (min-width: 1024px) {
     .intro {
         padding-left: 48px;
         width: 690px;
-        min-height: 429px;
-        padding-bottom: 90px;
+        padding-bottom: 75px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .intro {
         padding-left: 148px;
+        padding-bottom: 77px;
     }
 }

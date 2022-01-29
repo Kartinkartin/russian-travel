@@ -2,3 +2,21 @@
     text-decoration: none;
     color: #fff;
 }
+
+.cover__link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: rgb(42, 44, 47, 0.3);
+    z-index: -1;
+}
+
+@media screen and (min-width: 1024px) {
+    .cover__link:hover::before {
+        background-color: rgb(42, 44, 47, 0.8);
+        transition: background-color 1s linear;
+    }
+}
